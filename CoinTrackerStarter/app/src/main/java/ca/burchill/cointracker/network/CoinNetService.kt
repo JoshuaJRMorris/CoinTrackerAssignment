@@ -30,7 +30,7 @@ private val retrofit = Retrofit.Builder()
  */
 interface CoinApiService {
     @Headers(
-        "X-CMC_PRO_API_KEY: ${YOUR_API_KEY}",
+        "X-CMC_PRO_API_KEY: 32973dc1-2656-45c9-8444-40bb82fcc096",
         "Accept: application/json"
     )
     @GET("v1/cryptocurrency/listings/latest?start=1&limit=50&convert=USD")
